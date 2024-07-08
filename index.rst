@@ -15,8 +15,8 @@ TODO: travailler l'introduction.
     :caption: Choisir où s'installer
     :maxdepth: 4
 
-    choisir_ou_vivre/choix_de_la_region
-    choisir_ou_vivre/choix_du_terrain
+    choisir_ou_sinstaller/choix_de_la_region
+    choisir_ou_sinstaller/choix_du_terrain
 
 
 .. toctree::
