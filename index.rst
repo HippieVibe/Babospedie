@@ -1,6 +1,8 @@
 Babospédie
 ==========
 
+TEST
+
 Bienvenue sur Babospédie !
 
 Ce site a pour objectif de recenser tout un tas d'outils, de techniques et de méthodologies relatives à l'installation du babos sur son terrain.
