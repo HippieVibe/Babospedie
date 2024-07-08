@@ -27,3 +27,10 @@ jobs:
     - name: Build documentation
       run: |
         make html
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: generated_html
+        path: _build/html/
+        retention-days: 1
