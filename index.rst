@@ -1,10 +1,11 @@
 Babospédie
 ==========
 
-Bienvenue sur Babospédie !
+Bienvenue sur Babospédie, l'encyclopédie dédiée aux babos !
 
-Ce site a pour objectif de recenser tout un tas d'outils, de techniques et de méthodologies relatives à l'installation du babos sur son terrain.
-Il ne se veut en aucun cas exhaustif, l'idée étant avant tout d'agréger des informations autour d'une thématique commune, et de fournir des sources qui permettent au lecteur ou à la lectrice, si ils le souhaitent, de creuser davantage un sujet.
+Ce site a pour objectif de recenser tout un tas d'outils, de techniques et de méthodologies relatives à l'installation des babos sur leur terrain.
+
+Il ne se veut en aucun cas exhaustif, l'idée étant avant tout d'agréger des informations autour d'une thématique commune, et de fournir des sources qui permettant au lecteur ou à la lectrice, si ils le souhaitent, de creuser davantage un sujet.
 
 Quel budget avant de se lancer ?
 
