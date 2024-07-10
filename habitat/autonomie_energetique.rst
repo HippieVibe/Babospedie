@@ -45,35 +45,35 @@ Nous allons ici nous concentrer sur les batteries qui sont le plus couramment ut
 | **Catégorie** | **Type**   | **Prix**   | **Impact environnemental** | **Reconditionnement** | **Profondeur décharge** | **Nombre de cycles (fonction de la profondeur de décharge)** | **Durée de vie calendaire** | **Vitesse décharge** | **Densité énergétique** | **Décharge profonde** | **Effet mémoire** | **Rendement**     | **BMS**        | **Entretien**                                         |
 +---------------+------------+------------+----------------------------+-----------------------+-------------------------+--------------------------------------------------------------+-----------------------------+----------------------+-------------------------+-----------------------+-------------------+-------------------+----------------+-------------------------------------------------------+
 | Plomb         | Acide      | €          | Fort                       | Possible en envoyant  | 70%                     | - 800 cycles à 30%                                           | :red_cell:`3 à 5 ans`       | Lente                | Faible                  | :red_cell:`Très       | Faible            | 80%               | Non nécessaire | - Non étanche                                         |
-|               |            |            |                            | des impulsions élec-  |                         | - 500 cycles à 50%                                           |                             |                      |                         | sensible`             |                   |                   |                | - :red_cell:`Ajout régulier d'eau distillée`          |
+|               |            |            |                            | des impulsions élec\  |                         | - 500 cycles à 50%                                           |                             |                      |                         | sensible`             |                   |                   |                | - :red_cell:`Ajout régulier d'eau distillée`          |
 |               |            |            |                            | triques de 300-400A.  |                         | - 300 cycles à 70%                                           |                             |                      |                         |                       |                   |                   |                | - Vérifier que les connexions ne sont pas corrodées   |
 |               |            |            |                            | Processus complexe et |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | avec de faibles       |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | chances de succès     |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               +------------+------------+----------------------------+-----------------------+-------------------------+--------------------------------------------------------------+-----------------------------+----------------------+-------------------------+-----------------------+-------------------+-------------------+----------------+-------------------------------------------------------+
 |               | AGM        | €€         | Fort                       | Possible en envoyant  | 80%                     | - 1500 cycles à 30%                                          | :red_cell:`5 à 8 ans`       | Moyenne              | Faible                  | Sensibilité moyenne   | Faible            | 95%               | Non nécessaire | - Étanche                                             |
-|               |            |            |                            | des impulsions élec-  |                         | - 600 cycles à 50%                                           |                             |                      |                         |                       |                   |                   |                | - Quasiment aucun entretien                           |
+|               |            |            |                            | des impulsions élec\  |                         | - 600 cycles à 50%                                           |                             |                      |                         |                       |                   |                   |                | - Quasiment aucun entretien                           |
 |               |            |            |                            | triques de 300-400A.  |                         | - 400 cycles à 70%                                           |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | Processus complexe et |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | avec de faibles       |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | chances de succès     |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               +------------+------------+----------------------------+-----------------------+-------------------------+--------------------------------------------------------------+-----------------------------+----------------------+-------------------------+-----------------------+-------------------+-------------------+----------------+-------------------------------------------------------+
 |               | Gel        | €€         | Fort                       | Possible en envoyant  | 90%                     | - 1800 cycles à 30%                                          | :red_cell:`5 à 10 ans`      | Lente                | Faible                  | Sensibilité moyenne   | Faible            | 90%               | Non nécessaire | - Étanche                                             |
-|               |            |            |                            | des impulsions élec-  |                         | - 750 cycles à 50%                                           |                             |                      |                         |                       |                   |                   |                | - Quasiment aucun entretien                           |
+|               |            |            |                            | des impulsions élec\  |                         | - 750 cycles à 50%                                           |                             |                      |                         |                       |                   |                   |                | - Quasiment aucun entretien                           |
 |               |            |            |                            | triques de 300-400A.  |                         | - 500 cycles à 70%                                           |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | Processus complexe et |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | avec de faibles       |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | chances de succès     |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               +------------+------------+----------------------------+-----------------------+-------------------------+--------------------------------------------------------------+-----------------------------+----------------------+-------------------------+-----------------------+-------------------+-------------------+----------------+-------------------------------------------------------+
 |               | OPzS       | €€€        | Fort                       | Possible en envoyant  | 80%                     | - 4400 cycles à 30%                                          | 15 à 20 ans                 | Rapide               | Faible                  | Sensibilité moyenne   | Faible            | 85%               | Non nécessaire | - Non étanche                                         |
-|               |            |            |                            | des impulsions élec-  |                         | - 2500 cycles à 50%                                          |                             |                      |                         |                       |                   |                   |                | - :red_cell:`Ajout régulier d'acide sulfurique dilué` |
+|               |            |            |                            | des impulsions élec\  |                         | - 2500 cycles à 50%                                          |                             |                      |                         |                       |                   |                   |                | - :red_cell:`Ajout régulier d'acide sulfurique dilué` |
 |               |            |            |                            | triques de 300-400A.  |                         | - 1350 cycles à 70%                                          |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | Processus complexe et |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | avec de faibles       |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | chances de succès     |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               +------------+------------+----------------------------+-----------------------+-------------------------+--------------------------------------------------------------+-----------------------------+----------------------+-------------------------+-----------------------+-------------------+-------------------+----------------+-------------------------------------------------------+
 |               | OPzV       | €€€        | Fort                       | Possible en envoyant  | 80%                     | - 4600 cycles à 30%                                          | 15 à 20 ans                 | Rapide               | Faible                  | Sensibilité moyenne   | Faible            | 85%               | Non nécessaire | - Étanche                                             |
-|               |            |            |                            | des impulsions élec-  |                         | - 2600 cycles à 50%                                          |                             |                      |                         |                       |                   |                   |                | - Quasiment aucun entretien                           |
+|               |            |            |                            | des impulsions élec\  |                         | - 2600 cycles à 50%                                          |                             |                      |                         |                       |                   |                   |                | - Quasiment aucun entretien                           |
 |               |            |            |                            | triques de 300-400A.  |                         | - 1400 cycles à 70%                                          |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | Processus complexe et |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | avec de faibles       |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
@@ -91,7 +91,7 @@ Nous allons ici nous concentrer sur les batteries qui sont le plus couramment ut
 +---------------+------------+------------+----------------------------+-----------------------+-------------------------+--------------------------------------------------------------+-----------------------------+----------------------+-------------------------+-----------------------+-------------------+-------------------+----------------+-------------------------------------------------------+
 | Nickel        | Fer        | €€€€€      | :green_cell:`Relativement  | :green_cell:`Changer  | 85%                     | - 6000 cycles à 30%                                          | :green_cell:`30 à 50 ans`   | Rapide               | Faible                  | Peu sensible          | Faible            | 80%               | Non nécessaire | - Non étanche                                         |
 |               |            |            | faible`                    | l'électrolyte (KOH)   |                         | - 3000 cycles à 50%                                          |                             |                      |                         |                       |                   |                   |                | - :red_cell:`Ajout régulier d'eau distillée`          |
-|               |            |            |                            | permet de remettre la |                         | - 1700 cycles à 70%                                          |                             |                      |                         |                       |                   |                   |                |                                                       |
+|               |            |            |                            | permet de remettre la |                         | - 1700 cycles à 70%                                          |                             |                      |                         |                       |                   |                   |                | - Prévoir de changer l'électrolyte tous les ~10 ans   |
 |               |            |            |                            | batterie presque à    |                         | - Remise quasi à neuf sur changement de l'électrolyte        |                             |                      |                         |                       |                   |                   |                |                                                       |
 |               |            |            |                            | à neuf`               |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 +---------------+------------+------------+----------------------------+-----------------------+-------------------------+--------------------------------------------------------------+-----------------------------+----------------------+-------------------------+-----------------------+-------------------+-------------------+----------------+-------------------------------------------------------+
@@ -112,7 +112,14 @@ Vidéo sur les batteries Nickel-Fer (en anglais):
 
 .. raw:: html
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/PQ-Ibc1zCYk" title="The Most Ethical Batteries for Renewable Energy Systems" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/PQ-Ibc1zCYk" 
+              title="The Most Ethical Batteries for Renewable Energy Systems" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen>
+      </iframe>
 
 Sources:
 
@@ -126,9 +133,12 @@ Sources:
 Choix de l'onduleur
 -------------------
 
-L'onduleur est l'équipement qui permet de gérer "intelligement" l'électricité.
+L'onduleur est l'équipement qui permet de gérer "intelligemment" l'électricité.
 Il a pour rôle de transformer le courant continu en courant alternatif.
 Mais aussi de rendre le courant propre en stabilisant sa fréquence (en utilisant l'électricité du réseau public comme référence).
+
+.. image:: ../_static/images/onduleur.png
+   :width: 400
 
 .. warning::
 
@@ -154,7 +164,7 @@ Installation de panneaux solaires
 - Attention à bien dimensionner la batterie => prévoir un peu large
 - Si l'installation n'est pas sur les toits, possibilité d'automatiser l'orientation des panneaux à l'aide de 2 cellules photoelectriques séparées par un cache (qui va faire de l'ombre d'un coté ou de l'autre)
 - La principale perte d'efficacité des panneaux solaires est due à la saleté, il faut les nettoyer régulièrement !! C'est pour cette raison que mettre les panneaux au sol plutôt que sur un toit est une option à sérieusement considérer.
-- Faire attention à l'ensolleiment l'hiver, le soleil est plus rasant
+- Faire attention à l'ensoleillement l'hiver, le soleil est plus rasant
 
 Avantages de mettre ses panneaux au sol plutôt que sur des toits:
 
@@ -208,10 +218,40 @@ Certains groupes haut de gammes intègrent parfois des régulateurs visant à li
    Ne pas utiliser en intérieur à cause des rejets dûs à la combustion (risque d'intoxication).
 
 
+Économies d'énergie
+-------------------
+
+Réseau électrique 12 volts
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Nos équipements du quotidien (chargeur de smartphones, lumières, etc.) pourraient parfaitement fonctionner avec du 12 volts.
+Seulement, les normes électrique font qu'aujourd'hui nous avons du 230 volts dans nos logements.
+À chaque conversion de la tension (passage 12V à 230V, puis de 230V à 12V, etc.) une perte de 10 à 20% de rendement énergétique.
+Cette perte peut devenir particulièrement importantes lorsque des batteries sont utilisées, étant donné que la tension est une première fois transformée en 230V, pour ensuite être de nouveau convertie en 12V.
+
+Si vous en avez la possibilité, il peut être intéressant de prévoir dès la construction/rénovation de votre habitat, un réseau 12V en plus du 230V.
+
+
+Adapter certains postes de dépenses en fonction de la production d'énergie
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Un équipement open-source appelé le `MK2 PVRouter <https://mk2pvrouter.com>`_ permet d'alimenter certains équipements que lorsqu'on est en surproduction énergétique.
+
+Il est particulièrement adapté pour chauffer un chauffe-eau ou des radiateurs, lorsque la production d'énergie est au plus haut.
+
+.. image:: ../_static/images/production_consommation_sans_mk2_pvrouter.png
+   :height: 300
+
+.. image:: ../_static/images/production_consommation_avec_mk2_pvrouter.png
+   :height: 300
+
+
 Supervision de sa consommation
-------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Plusieurs études semblent suggérer que le simple fait de pouvoir observer sa consommation énergétique en temps réel aurait tendance à faire baisser sa consommation.
+
+Bien souvent, avoir la possibilité d'observer sa consommation en temps réel permet d'identifier les principaux postes de dépense énergétique et ainsi agir en conséquence.
 
 Sources:
 
