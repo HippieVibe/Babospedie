@@ -93,7 +93,7 @@ Nous allons ici nous concentrer sur les batteries qui sont le plus couramment ut
 |               |            |            | faible`                    | l'électrolyte (KOH)   |                         | - 3000 cycles à 50%                                          |                             |                      |                         |                       |                   |                   |                | - :red_cell:`Ajout régulier d'eau distillée`          |
 |               |            |            |                            | permet de remettre la |                         | - 1700 cycles à 70%                                          |                             |                      |                         |                       |                   |                   |                | - Prévoir de changer l'électrolyte tous les ~10 ans   |
 |               |            |            |                            | batterie presque à    |                         | - Remise quasi à neuf sur changement de l'électrolyte        |                             |                      |                         |                       |                   |                   |                |                                                       |
-|               |            |            |                            | à neuf`               |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
+|               |            |            |                            | neuf`                 |                         |                                                              |                             |                      |                         |                       |                   |                   |                |                                                       |
 +---------------+------------+------------+----------------------------+-----------------------+-------------------------+--------------------------------------------------------------+-----------------------------+----------------------+-------------------------+-----------------------+-------------------+-------------------+----------------+-------------------------------------------------------+
 
 Notes:
@@ -158,13 +158,43 @@ C'est lui qui va être responsable de:
 Installation de panneaux solaires
 ---------------------------------
 
-- Inclinaison idéale de panneaux solaires: 60°
-- "Plus de panneaux que de batteries"
-- Circuit fermé, ne pas revendre à EDF
-- Attention à bien dimensionner la batterie => prévoir un peu large
-- Si l'installation n'est pas sur les toits, possibilité d'automatiser l'orientation des panneaux à l'aide de 2 cellules photoelectriques séparées par un cache (qui va faire de l'ombre d'un coté ou de l'autre)
-- La principale perte d'efficacité des panneaux solaires est due à la saleté, il faut les nettoyer régulièrement !! C'est pour cette raison que mettre les panneaux au sol plutôt que sur un toit est une option à sérieusement considérer.
-- Faire attention à l'ensoleillement l'hiver, le soleil est plus rasant
+Il existe trois principaux types de panneaux solaires:
+
++----------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+| **Type**       | **Avantages**                                                           | **inconvénients**                                                                        |
++----------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+| Photovoltaique | - Facilité d'installation                                               | - Nécessité d'avoir une maison ou un terrain bien exposé                                 |
+|                | - Bon rapport qualité/prix                                              |                                                                                          |
+|                | - Possibilité de revendre sa production                                 |                                                                                          |
+|                | - Éligible aux subventions                                              |                                                                                          |
+|                | - Idéal si on se chauffe à l'électrique                                 |                                                                                          |
++----------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+| Thermique      | - Permet de produire de l'eau chaude sanitaire                          | - Production limitée                                                                     |
+|                | - Particulièrement interessant si utilisation de chauffages hydroliques | - Installation complexe                                                                                         |
+|                | - Éligible à beaucoup d'aides                                           | - Ne fonctionne pas en dessous de 0°C                                                    |
++----------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+| Hybride        | - Mélange entre photovoltaique et thermique                             | - Moins robuste car plus high-tech: si une face du panneau tombe en panne, l'autre aussi |
+|                | - Éligible à beaucoup d'aides                                           |                                                                                          |
+|                | - Plus cher                                                             |                                                                                          |
++----------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+
+
+Il existe deux types principaux de panneaux solaires photovoltaiques, les panneaux dits "monocristalins" ainsi que les panneaux dits "polycristalins".
+
+Les panneaux monocristalins ont un meilleur rendement, mais sont également plus chers.
+
+.. warning::
+
+   Avant de faire un quelconque montage, il faut bien s'assurer des limites de tension et d'intensité maximales supportées par votre matériel (ex: l'onduleur).
+
+Il faut généralement prévoir plus de panneaux que de batteries.
+Un montage en série permet d'augmenter la tension de sortie (addition des tensions de tous les panneaux en série).
+Un montage en parallèle permet d'augmenter l'intensité de sortie (addition des intensités de tous les panneaux en série).
+Le montage en parallèle nécessite des cables plus épais pour supporter le courant qui les traverse.
+L'inclinaison idéale pour des panneaux solaires statiques (sur un toit) est de 60°.
+Il est possible de mixer les montages.
+La principale perte d'efficacité des panneaux solaires est due à la saleté, il faut les nettoyer régulièrement. C'est pour cette raison que mettre les panneaux au sol plutôt que sur un toit est une option à sérieusement considérer.
+Faire attention à son emplacement, le soleil est plus rasant l'hiver.
 
 Avantages de mettre ses panneaux au sol plutôt que sur des toits:
 

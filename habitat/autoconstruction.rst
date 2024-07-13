@@ -4,8 +4,21 @@ Autoconstruction
 Essayer d'anticiper au maximum les envies futures, permettre de la flexibilité au niveau de l'installation électrique et d'eau.
 Il faut imaginer que dans 10 ans on voudra peut-être déplacer la salle de bain de l'autre coté de la maison.
 
+Habitats légers
+---------------
+
+Peut être intéressant pour des raisons légales ou en raison de son faible cout.
+
+Dôme géodésique
+~~~~~~~~~~~~~~~
+
+https://www.youtube.com/watch?v=TbuBPhGLLGo
+
+Habitats lourds
+---------------
+
 Maison en A
------------
+~~~~~~~~~~~
 
 Pas cher et simple à autoconstruire.
 
