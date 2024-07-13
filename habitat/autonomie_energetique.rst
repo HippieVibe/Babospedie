@@ -170,7 +170,7 @@ Il existe trois principaux types de panneaux solaires:
 |                | - Idéal si on se chauffe à l'électrique                                 |                                                                                          |
 +----------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
 | Thermique      | - Permet de produire de l'eau chaude sanitaire                          | - Production limitée                                                                     |
-|                | - Particulièrement interessant si utilisation de chauffages hydroliques | - Installation complexe                                                                                         |
+|                | - Particulièrement interessant si utilisation de chauffages hydroliques | - Installation complexe                                                                  |
 |                | - Éligible à beaucoup d'aides                                           | - Ne fonctionne pas en dessous de 0°C                                                    |
 +----------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
 | Hybride        | - Mélange entre photovoltaique et thermique                             | - Moins robuste car plus high-tech: si une face du panneau tombe en panne, l'autre aussi |
