@@ -1,3 +1,5 @@
 requests
 requests-cache
-prettytable
+pygal_maps_fr
+jenkspy
+openpyxl
