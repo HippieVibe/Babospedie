@@ -7,6 +7,7 @@ from datetime import date
 from io import BytesIO, TextIOWrapper
 from pathlib import Path
 from statistics import mean
+from tempfile import NamedTemporaryFile, TemporaryFile
 from time import sleep
 from typing import Any
 from urllib.parse import urlsplit, urlunsplit
@@ -16,6 +17,7 @@ import requests
 import requests_cache
 from jenkspy import jenks_breaks
 from openpyxl import load_workbook
+from pygal.config import Config
 from pygal.style import Style
 from pygal_maps_fr.maps import DEPARTMENTS
 from pygal_maps_fr.maps import Departments as FrenchMapDepartments
@@ -870,17 +872,51 @@ def build_plot(
 
     colors = [t[1] for t in categories]
 
-    france_map = FrenchMapDepartments(style=style or Style(colors=colors))
-    france_map.title = title
-
-    for i, cluster in enumerate(clusters):
-        france_map.add(
-            categories[i][0],
-            [{"value": (k, v), "color": colors[i]} for k, v in cluster.items()],
+    with NamedTemporaryFile() as css_file:
+        config = Config()
+        css_file.write(
+            b".value { fill: black !important; } "
+            b".departement { fill-opacity: 1 !important; }"
+            b".tooltip-overlay { transform: translate(142px, 0px) !important; }",
         )
 
-    with output_file.open("w") as map_file:
-        map_file.write(france_map.render().decode())
+        for i, color in enumerate(colors):
+            css_file.write(
+                f".hatch-{i} {{ fill: url(#diagonalHatch{i}) !important; }}".encode(),
+            )
+
+            # This creates SVG patterns that will allow us to hatch
+            # departments using JavaScript.
+            config.defs.append(f"""
+                <pattern id="diagonalHatch{i}"
+                         width="10" height="10"
+                         patternTransform="rotate(45 0 0)"
+                         patternUnits="userSpaceOnUse">
+                <rect x="0" y="0" width="10" height="10" style="fill: {color}"/>
+                <line x1="0" y1="0"
+                      x2="0" y2="10"
+                      style="stroke:black; stroke-width:3" />
+                </pattern>
+            """)
+
+        css_file.flush()
+        config.css.append("file://" + css_file.name)  # type: ignore []
+
+        france_map = FrenchMapDepartments(
+            config=config,
+            style=style
+            or Style(background="#fcfcfc", plot_background="#fcfcfc", colors=colors),
+        )
+        france_map.title = title
+
+        for i, cluster in enumerate(clusters):
+            france_map.add(
+                categories[i][0],
+                [{"value": (k, v), "color": colors[i]} for k, v in cluster.items()],
+            )
+
+        with output_file.open("w") as map_file:
+            map_file.write(france_map.render().decode())
 
 
 def main() -> None:
