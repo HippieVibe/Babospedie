@@ -114,6 +114,9 @@ class Weather:
     # dusk.
     sunshine_duration: float
 
+    # The sum of solar radiation on a given day in Megajoules.
+    shortwave_radiation_sum: float
+
     # Sum of daily rain.
     rainfall_sum: float
 
@@ -178,6 +181,7 @@ def get_weather(city: City, start_date: date, end_date: date) -> dict[date, Weat
                 "apparent_temperature_mean",
                 "daylight_duration",
                 "sunshine_duration",
+                "shortwave_radiation_sum",
                 "wind_speed_10m_max",
                 "rain_sum",
                 "snowfall_sum",
@@ -198,6 +202,7 @@ def get_weather(city: City, start_date: date, end_date: date) -> dict[date, Weat
     apparent_temperature_mean = json_content["apparent_temperature_mean"]
     daylight_duration = json_content["daylight_duration"]
     sunshine_duration = json_content["sunshine_duration"]
+    shortwave_radiation_sum = json_content["shortwave_radiation_sum"]
     wind_speed_10m_max = json_content["wind_speed_10m_max"]
     rain_sum = json_content["rain_sum"]
     snowfall_sum = json_content["snowfall_sum"]
@@ -247,6 +252,10 @@ def get_weather(city: City, start_date: date, end_date: date) -> dict[date, Weat
             print(f"WARNING: sunshine_duration is None, skipping {time[i]}")
             continue
 
+        if shortwave_radiation_sum[i] is None:
+            print(f"WARNING: shortwave_radiation_sum is None, skipping {time[i]}")
+            continue
+
         if rain_sum[i] is None:
             print(f"WARNING: rain_sum is None, skipping {time[i]}")
             continue
@@ -273,6 +282,7 @@ def get_weather(city: City, start_date: date, end_date: date) -> dict[date, Weat
             wind_speed_10m_max[i],
             daylight_duration[i] / 3600,  # convert to hours
             sunshine_duration[i] / 3600,  # convert to hours
+            shortwave_radiation_sum[i],
             rain_sum[i],
             snowfall_sum[i] * 10,  # convert to mm
             precipitation_hours[i],
@@ -299,6 +309,9 @@ def compute_average_weather(weather_measurements: list[Weather]) -> Weather:
     wind_speed_10m_max_values = [wm.wind_speed_10m_max for wm in weather_measurements]
     daylight_duration_values = [wm.daylight_duration for wm in weather_measurements]
     sunshine_duration_values = [wm.sunshine_duration for wm in weather_measurements]
+    shortwave_radiation_sum_values = [
+        wm.shortwave_radiation_sum for wm in weather_measurements
+    ]
     rain_sum_values = [wm.rainfall_sum for wm in weather_measurements]
     snowfall_sum_values = [wm.snowfall_sum for wm in weather_measurements]
     precipitation_hours_values = [wm.precipitation_hours for wm in weather_measurements]
@@ -316,6 +329,7 @@ def compute_average_weather(weather_measurements: list[Weather]) -> Weather:
         wind_speed_10m_max=mean(wind_speed_10m_max_values),
         daylight_duration=mean(daylight_duration_values),
         sunshine_duration=mean(sunshine_duration_values),
+        shortwave_radiation_sum=mean(shortwave_radiation_sum_values),
         rainfall_sum=mean(rain_sum_values),
         snowfall_sum=mean(snowfall_sum_values),
         precipitation_hours=mean(precipitation_hours_values),
@@ -342,6 +356,7 @@ def compute_average_season_weather(
     winter_wind_speed_10m_max_values = []
     winter_daylight_duration_values = []
     winter_sunshine_duration_values = []
+    winter_shortwave_radiation_sum_values = []
     winter_rain_sum_values = []
     winter_snowfall_sum_values = []
     winter_precipitation_hours_values = []
@@ -356,6 +371,7 @@ def compute_average_season_weather(
     summer_wind_speed_10m_max_values = []
     summer_daylight_duration_values = []
     summer_sunshine_duration_values = []
+    summer_shortwave_radiation_sum_values = []
     summer_rain_sum_values = []
     summer_snowfall_sum_values = []
     summer_precipitation_hours_values = []
@@ -455,6 +471,9 @@ def compute_average_season_weather(
             winter_sunshine_duration_values.append(
                 weather_measurement.sunshine_duration,
             )
+            winter_shortwave_radiation_sum_values.append(
+                weather_measurement.shortwave_radiation_sum
+            )
             winter_precipitation_hours_values.append(
                 weather_measurement.precipitation_hours,
             )
@@ -485,6 +504,9 @@ def compute_average_season_weather(
             summer_sunshine_duration_values.append(
                 weather_measurement.sunshine_duration,
             )
+            summer_shortwave_radiation_sum_values.append(
+                weather_measurement.shortwave_radiation_sum
+            )
             summer_precipitation_hours_values.append(
                 weather_measurement.precipitation_hours,
             )
@@ -500,6 +522,7 @@ def compute_average_season_weather(
             wind_speed_10m_max=mean(winter_wind_speed_10m_max_values),
             daylight_duration=mean(winter_daylight_duration_values),
             sunshine_duration=mean(winter_sunshine_duration_values),
+            shortwave_radiation_sum=mean(winter_shortwave_radiation_sum_values),
             rainfall_sum=mean(winter_rain_sum_values),
             snowfall_sum=mean(winter_snowfall_sum_values),
             precipitation_hours=mean(winter_precipitation_hours_values),
@@ -515,6 +538,7 @@ def compute_average_season_weather(
             wind_speed_10m_max=mean(summer_wind_speed_10m_max_values),
             daylight_duration=mean(summer_daylight_duration_values),
             sunshine_duration=mean(summer_sunshine_duration_values),
+            shortwave_radiation_sum=mean(summer_shortwave_radiation_sum_values),
             rainfall_sum=mean(summer_rain_sum_values),
             snowfall_sum=mean(summer_snowfall_sum_values),
             precipitation_hours=mean(summer_precipitation_hours_values),
@@ -523,6 +547,7 @@ def compute_average_season_weather(
     )
 
 
+# TODO: use https://www.geodair.fr/donnees/consultation instead
 def get_air_quality_mean(city: City, start_date: date, end_date: date) -> AirQuality:
     json_content = requests_get_meteo(
         "https://air-quality-api.open-meteo.com/v1/air-quality",
@@ -608,10 +633,7 @@ def get_referenced_natural_disaster_count() -> dict[str, int]:
 
 
 def get_soil_pollution_incidents_count() -> dict[str, int]:
-    """Return how many pollution incidents happened in the given city.
-
-    https://www.data.gouv.fr/en/datasets/base-des-sols-pollues/
-    """
+    """Return how many pollution incidents happened in the given city."""
     incidents_count_per_department = {code: 0 for code in DEPARTMENTS}
 
     resp = requests.get(
@@ -834,7 +856,7 @@ def pick_cities_per_department(
 
 def build_plot(
     output_file: Path,
-    title: str,
+    _title: str,
     values_per_department: dict[str, Any],
     categories: list[tuple[str, str]],
     style: Style | None = None,
@@ -872,51 +894,52 @@ def build_plot(
 
     colors = [t[1] for t in categories]
 
-    with NamedTemporaryFile() as css_file:
-        config = Config()
-        css_file.write(
-            b".value { fill: black !important; } "
-            b".departement { fill-opacity: 1 !important; }"
-            b".tooltip-overlay { transform: translate(142px, 0px) !important; }",
+    custom_css = (
+        "inline:"
+        ".value { fill: black !important; } "
+        ".departement { fill-opacity: 1 !important; }"
+        ".tooltip-overlay { transform: translate(0px, -13px) !important; }"
+    )
+
+    config = Config()
+    for i, color in enumerate(colors):
+        custom_css += f".hatch-{i} {{ fill: url(#diagonalHatch{i}) !important; }}"
+
+        # This creates SVG patterns that will allow us to hatch
+        # departments using JavaScript.
+        config.defs.append(  # type: ignore []
+            f"""
+            <pattern id="diagonalHatch{i}"
+                        width="10" height="10"
+                        patternTransform="rotate(45 0 0)"
+                        patternUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="10" height="10" style="fill: {color}"/>
+            <line x1="0" y1="0"
+                    x2="0" y2="10"
+                    style="stroke:black; stroke-width:3" />
+            </pattern>
+            """,
         )
 
-        for i, color in enumerate(colors):
-            css_file.write(
-                f".hatch-{i} {{ fill: url(#diagonalHatch{i}) !important; }}".encode(),
-            )
+    france_map = FrenchMapDepartments(
+        config=config,
+        style=style
+        or Style(background="#fcfcfc", plot_background="#fcfcfc", colors=colors),
+        css=(..., custom_css),
+        width=800,
+        spacing=0,
+        margin=0,
+        show_legend=False,
+    )
 
-            # This creates SVG patterns that will allow us to hatch
-            # departments using JavaScript.
-            config.defs.append(f"""
-                <pattern id="diagonalHatch{i}"
-                         width="10" height="10"
-                         patternTransform="rotate(45 0 0)"
-                         patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="10" height="10" style="fill: {color}"/>
-                <line x1="0" y1="0"
-                      x2="0" y2="10"
-                      style="stroke:black; stroke-width:3" />
-                </pattern>
-            """)
-
-        css_file.flush()
-        config.css.append("file://" + css_file.name)  # type: ignore []
-
-        france_map = FrenchMapDepartments(
-            config=config,
-            style=style
-            or Style(background="#fcfcfc", plot_background="#fcfcfc", colors=colors),
+    for i, cluster in enumerate(clusters):
+        france_map.add(
+            categories[i][0],
+            [{"value": (k, v), "color": colors[i]} for k, v in cluster.items()],
         )
-        france_map.title = title
 
-        for i, cluster in enumerate(clusters):
-            france_map.add(
-                categories[i][0],
-                [{"value": (k, v), "color": colors[i]} for k, v in cluster.items()],
-            )
-
-        with output_file.open("w") as map_file:
-            map_file.write(france_map.render().decode())
+    with output_file.open("w") as map_file:
+        map_file.write(france_map.render().decode())
 
 
 def main() -> None:
@@ -1112,6 +1135,42 @@ def main() -> None:
 
     build_plot(
         THIS_SCRIPT_LOCATION.joinpath(
+            "../_static/images/carte_irradiation_solaire_hiver.svg",
+        ),
+        "Irradiation solaire moyenne en MJ/m² en hiver (1994 - 2023)",
+        {
+            k: v.shortwave_radiation_sum
+            for k, v in average_winter_weather_per_department.items()
+        },
+        [
+            ("Très faible", "#FFF9C4"),  # 100
+            ("Faible", "#FFF59D"),  # 200
+            ("Moyen", "#FFEE58"),  # 400
+            ("Important", "#FDD835"),  # 600
+            ("Très important", "#F9A825"),  # 800
+        ],
+    )
+
+    build_plot(
+        THIS_SCRIPT_LOCATION.joinpath(
+            "../_static/images/carte_irradiation_solaire_ete.svg",
+        ),
+        "Irradiation solaire moyenne en MJ/m² en été (1994 - 2023)",
+        {
+            k: v.shortwave_radiation_sum
+            for k, v in average_summer_weather_per_department.items()
+        },
+        [
+            ("Très faible", "#FFF9C4"),  # 100
+            ("Faible", "#FFF59D"),  # 200
+            ("Moyen", "#FFEE58"),  # 400
+            ("Important", "#FDD835"),  # 600
+            ("Très important", "#F9A825"),  # 800
+        ],
+    )
+
+    build_plot(
+        THIS_SCRIPT_LOCATION.joinpath(
             "../_static/images/carte_ensolleillement_moyen_hiver.svg",
         ),
         "Ensolleillement moyen en heures en hiver (1994 - 2023)",
@@ -1215,6 +1274,72 @@ def main() -> None:
             ("Moyen", "#26A69A"),  # 400
             ("Important", "#00897B"),  # 600
             ("Très important", "#00695C"),  # 800
+        ],
+    )
+
+    build_plot(
+        THIS_SCRIPT_LOCATION.joinpath(
+            "../_static/images/carte_heures_avec_pluie_hiver.svg",
+        ),
+        "Nombre d'heures (en quantité, pas en durée) durant lesquelles il y a eu un moment de pluie en hiver (1994 - 2023)",
+        {
+            k: v.precipitation_hours
+            for k, v in average_winter_weather_per_department.items()
+        },
+        [
+            ("Très faible", "#BBDEFB"),  # 100
+            ("Faible", "#90CAF9"),  # 200
+            ("Moyenne", "#42A5F5"),  # 400
+            ("Importante", "#1E88E5"),  # 600
+            ("Très importante", "#1565C0"),  # 800
+        ],
+    )
+
+    build_plot(
+        THIS_SCRIPT_LOCATION.joinpath(
+            "../_static/images/carte_heures_avec_pluie_ete.svg",
+        ),
+        "Nombre d'heures (en quantité, pas en durée) durant lesquelles il y a eu un moment de pluie en été (1994 - 2023)",
+        {
+            k: v.precipitation_hours
+            for k, v in average_summer_weather_per_department.items()
+        },
+        [
+            ("Très faible", "#BBDEFB"),  # 100
+            ("Faible", "#90CAF9"),  # 200
+            ("Moyenne", "#42A5F5"),  # 400
+            ("Importante", "#1E88E5"),  # 600
+            ("Très importante", "#1565C0"),  # 800
+        ],
+    )
+
+    build_plot(
+        THIS_SCRIPT_LOCATION.joinpath(
+            "../_static/images/carte_pluviometrie_hiver.svg",
+        ),
+        "Pluviométrie moyenne sur toute la période hivernale en mm (1994 - 2023)",
+        {k: v.rainfall_sum for k, v in average_winter_weather_per_department.items()},
+        [
+            ("Très faible", "#BBDEFB"),  # 100
+            ("Faible", "#90CAF9"),  # 200
+            ("Moyenne", "#42A5F5"),  # 400
+            ("Importante", "#1E88E5"),  # 600
+            ("Très importante", "#1565C0"),  # 800
+        ],
+    )
+
+    build_plot(
+        THIS_SCRIPT_LOCATION.joinpath(
+            "../_static/images/carte_pluviometrie_ete.svg",
+        ),
+        "Pluviométrie moyenne sur toute la période estivale en mm (1994 - 2023)",
+        {k: v.rainfall_sum for k, v in average_summer_weather_per_department.items()},
+        [
+            ("Très faible", "#BBDEFB"),  # 100
+            ("Faible", "#90CAF9"),  # 200
+            ("Moyenne", "#42A5F5"),  # 400
+            ("Importante", "#1E88E5"),  # 600
+            ("Très importante", "#1565C0"),  # 800
         ],
     )
 
