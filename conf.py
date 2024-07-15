@@ -15,7 +15,7 @@ author = "HippieVibe"
 extensions = ["sphinx.ext.autosectionlabel"]
 
 templates_path = ["_templates"]
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "scripts/*"]
 
 language = "fr"
 
