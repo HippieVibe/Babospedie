@@ -192,7 +192,7 @@ Irradiation solaire en été
 
 Ces moyennes sont calculées sur la période de 1994 à 2023.
 
-Cette métrique est particulièrement intéressante si vous souhaitez `installer des panneaux solaires <Installation de panneaux solaires>`_.
+Cette métrique est particulièrement intéressante si vous souhaitez :ref:`installer des panneaux solaires <Installation de panneaux solaires>`.
 
 .. raw:: html
 
@@ -205,7 +205,7 @@ Irradiation solaire en hiver
 
 Ces moyennes sont calculées sur la période de 1994 à 2023.
 
-Cette métrique est particulièrement intéressante si vous souhaitez `installer des panneaux solaires <Installation de panneaux solaires>`_.
+Cette métrique est particulièrement intéressante si vous souhaitez :ref:`installer des panneaux solaires <Installation de panneaux solaires>`.
 
 .. raw:: html
 
