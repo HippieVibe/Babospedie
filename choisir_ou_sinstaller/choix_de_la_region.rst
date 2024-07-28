@@ -257,51 +257,7 @@ Ces données sont extraites de la `base de données GASPAR <https://www.georisqu
 
 .. raw:: html
 
-    <script>
-      function toggle_hatch(departement) {
-        var hatch_removed = false;
-        departement.classList.forEach((c) => {
-          if (c.startsWith("hatch-")) {
-            departement.classList.remove(c);
-            hatch_removed = true;
-          }
-        });
-
-        if (!hatch_removed) {
-          departement.classList.forEach((c) => {
-            if (c.startsWith("color-")) {
-              var color_id = c.split("-")[1];
-              departement.classList.add("hatch-" + color_id);
-            }
-          });
-        }
-      }
-
-      var maps = document.getElementsByTagName("embed");
-
-      for (var i = 0; i < maps.length; i++) {
-        maps[i].onload = function () {
-          var svg = this.getSVGDocument();
-          var departements = svg.getElementsByClassName("departement");
-
-          for (var j = 0; j < departements.length; j++) {
-            departements[j].onclick = function () {
-              this.classList.forEach((c) => {
-                if (c.startsWith("z")) {
-                  for (var k = 0; k < window.frames.length; k++) {
-                    var targets =
-                      window.frames[k].document.getElementsByClassName(c);
-                    for (var l = 0; l < targets.length; l++) {
-                      toggle_hatch(targets[l]);
-                    }
-                  }
-                }
-              });
-            };
-          }
-        };
-      }
-    </script>
+    <script src="../_static/js/choix_de_la_region.js"></script>
 
 
 Sources
