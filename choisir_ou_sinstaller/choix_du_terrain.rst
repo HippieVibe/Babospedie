@@ -5,26 +5,10 @@ Une fois que vous avez identifié la région dans laquelle vous souhaitez vous i
 
 Il va sans dire que votre étude se portera sur les terrains disponibles à la vente au moment de vos recherches.
 
-Ressources gouvernementales
----------------------------
-
-La `carte du site geoportail <https://www.geoportail.gouv.fr/carte>`_ vous permet d'observer en vue aérienne la division parcellaire d'une région grâce au calque "Parcelles cadastrales":
-
-.. image:: ../_static/images/geoportail_division_parcellaire.png
-   :width: 600
-
-Il est également possible de superposer les calques, si par exemple vous recherchez un terrain avec un cours d'eau, vous pouvez ajouter le calque "Cours d'eau BCAE" qui fera apparaitre des lignes bleues sur la carte:
-
-.. image:: ../_static/images/geoportail_cours_deau.png
-   :width: 600
-
-Un autre facteur important à prendre en compte sont les risques auxquels votre terrain peut-être sujet (zone innondable, risques sismiques, etc.).
-Cette information n'est pas simplement accessible directement au travers de la carte du site geoportail, mais peut-être obtenue en utilisant le site `georisques <https://errial.georisques.gouv.fr>`_.
-
-.. image:: ../_static/images/georisques.png
-
 Définir ses critères
 --------------------
+
+.. role:: fa-bars
 
 Comme pour le choix de la région, choisir son terrain est un choix personnel où chacun aura ses préférences.
 
@@ -37,7 +21,7 @@ c'est pourquoi cette liste est découpée en plusieurs catégories:
 - Conditions secondaires: les critères que vous estimez particulièrement importants, mais sur lesquels vous seriez prêts à faire de petites concessions si vous ne trouvez pas de terrain qui y répond entièrement.
 - Conditions tertiaire: les critères qui ne sont pas indispensables à la réalisation de votre projet mais qui seraient un atout non négligeable
 
-Nous avons déjà catégorisé certains critères à des fins d'illustration, mais vous pouvez réorganiser ceux-ci comme bon vous semble en effectuant un glisser-déposer à l'aide des boutons .
+Nous avons déjà catégorisé certains critères à des fins d'illustration, mais vous pouvez réorganiser ceux-ci comme bon vous semble en effectuant un glisser-déposer à l'aide des boutons :fa-bars:`.`
 
 
 Conditions primaires
@@ -71,6 +55,23 @@ Conditions tertiaires
   <script src="../_static/js/sortable.min.js"></script>
   <script src="../_static/js/choix_du_terrain.js"></script>
 
+Ressources gouvernementales
+---------------------------
+
+La `carte du site geoportail <https://www.geoportail.gouv.fr/carte>`_ vous permet d'observer en vue aérienne la division parcellaire d'une région grâce au calque "Parcelles cadastrales":
+
+.. image:: ../_static/images/geoportail_division_parcellaire.png
+   :width: 600
+
+Il est également possible de superposer les calques, si par exemple vous recherchez un terrain avec un cours d'eau, vous pouvez ajouter le calque "Cours d'eau BCAE" qui fera apparaitre des lignes bleues sur la carte:
+
+.. image:: ../_static/images/geoportail_cours_deau.png
+   :width: 600
+
+Un autre facteur important à prendre en compte sont les risques auxquels votre terrain peut-être sujet (zone innondable, risques sismiques, etc.).
+Cette information n'est pas simplement accessible directement au travers de la carte du site geoportail, mais peut-être obtenue en utilisant le site `georisques <https://errial.georisques.gouv.fr>`_.
+
+.. image:: ../_static/images/georisques.png
 
 Conformité avec les normes d'urbanisme de la commune
 ----------------------------------------------------

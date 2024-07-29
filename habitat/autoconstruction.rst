@@ -12,7 +12,11 @@ Peut être intéressant pour des raisons légales ou en raison de son faible cou
 Dôme géodésique
 ~~~~~~~~~~~~~~~
 
-https://www.youtube.com/watch?v=TbuBPhGLLGo
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; margin-bottom: 2em;">
+        <iframe src="https://www.youtube.com/embed/TbuBPhGLLGo" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
 
 Habitats lourds
 ---------------
@@ -22,11 +26,11 @@ Maison en A
 
 Pas cher et simple à autoconstruire.
 
-
-
 .. raw:: html
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/bBf3Sniwfqw" title="La maison en A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; margin-bottom: 2em;">
+        <iframe src="https://www.youtube.com/embed/bBf3Sniwfqw" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
 
 Alternative terre/paille
 ------------------------
