@@ -3,10 +3,6 @@ div[role="contentinfo"] {
   height: 0;
 }
 
-.wy-nav-content {
-  max-width: 100% !important;
-}
-
 td:has(p > .red-cell) {
   background-color: red !important;
 }
