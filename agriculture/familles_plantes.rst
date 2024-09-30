@@ -1,5 +1,5 @@
 Reconnaitre les familles de plantes
-======================================
+===================================
 
 .. important:: 
     
@@ -11,7 +11,7 @@ Reconnaitre les familles de plantes
 
 
 Les poacées (*les graminées*)
-#################################
+#############################
 *Blé, orge, seigle, bambou, avoine, canne à sucre, riz, millet, sorgho,...*
 
 .. image:: ../_static/images/poacees.JPG
@@ -21,7 +21,7 @@ Feuilles allongées à **nervures parrallèles** et fleurs en **épillet**
 
 
 Les fabacées (*les légumineuses*)
-###################################
+#################################
 
 *Lentille, fève, haricot, pois, pois chiche, arachide, luzerne, trèfle, soja, glycine,...*
 
@@ -41,7 +41,7 @@ Fleurs avec 5 pétales inégales et graines dans des **gousses**
 
 
 Les brassicacées
-###################
+################
 
 *Choux, colza, moutarde, roquette, navet, radis, cresson,...*
 
@@ -51,7 +51,7 @@ Les brassicacées
 **Odeur souffrée** caractéristique et fleurs à **4 pétales** disposées en forme de croix
 
 Les rosacées
-#################
+############
 
 *Rose, cerise, pomme, pêche, framboise, fraise, abricot, cassis, myrtilles, ronces,...*
 
@@ -61,7 +61,7 @@ Les rosacées
 Feuilles souvent dentées et fleurs avec **5 pétales séparées**
 
 Les astéracées
-################
+##############
 
 *Artichaut, tournesol, salade, endive, estragon, pissenlit, chardon ...*
 
@@ -77,7 +77,7 @@ Inflorescence (plusieurs fleurs) et une sève blanche ou jaune (**latex**)
 *Il y a autant de fleurs que de graines dans le tournesol*
 
 Les lamiacées
-#####################
+#############
 
 *Menthe, basilic, lavande, mélisse, romarin, thym,...*
 
@@ -88,7 +88,7 @@ Très **odorantes**. Tiges avec **4 angles et 4 faces**
 
 
 Les alliacées
-##################
+#############
 
 *Ail, oignon, échalotte, ciboulette, poireau, tulipe, lys,...*
 
@@ -97,8 +97,8 @@ Les alliacées
 
 Composées de **bulbes**, de feuilles aux nervures parrallèles, et de **fleurs "en pompom"** 
 
-Les apiacées (*les ombellifères)*
-##################################
+Les apiacées (*les ombellifères*)
+#################################
 
 *Fenouil, carotte, aneth, panais, persil, celeri,...*
 
@@ -108,7 +108,7 @@ Les apiacées (*les ombellifères)*
 Les fleurs sont disposées en **ombelles**. Sur une ombelle, toutes les fleurs sont rattachées en **un point**.
 
 Les cucurbitacées
-########################
+#################
 
 *Courgette, concombre, melon, pastèque, courges,...*
 
@@ -123,7 +123,7 @@ Grandes feuilles, tiges rampantes ou grimpantes et fleurs aux pétales soudées
 *Les curcubitacées ont souvent des vrilles sur leur tige pour s'accrocher à des supports environnants*
 
 Les solanacées
-##################
+##############
 
 *Tomate, aubergine, poivron, piment, pomme de terre,...*
 
@@ -133,7 +133,7 @@ Les solanacées
 Fleurs avec 5 pétales soudées et **feuilles alternes** (pas en symétrie par rapport à la tige)
 
 Autres familles
-####################
+###############
 
 La plupart des familles de plantes mangées appartiennent aux familles ci-dessus.
 

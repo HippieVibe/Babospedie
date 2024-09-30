@@ -55,6 +55,3 @@ TODO: travailler l'introduction.
     agriculture/fabrication_du_pain
     agriculture/familles_plantes
     agriculture/analyse_sol
-    
-
-    
