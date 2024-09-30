@@ -136,7 +136,7 @@ Mais aussi de rendre le courant propre en stabilisant sa fréquence (en utilisan
    :width: 400
 
 .. warning::
-   
+
     Les onduleurs conventionnels sont programmés pour se couper en cas de coupure du réseau public pour des raisons de sécurité.
 
     Seuls les onduleurs dits "hybrides" permettent de continuer à utiliser sa production en cas de coupure du réseau.
