@@ -17,7 +17,7 @@ Les poacées (*les graminées*)
 .. image:: ../_static/images/poacees.JPG
    :width: 600
 
-Feuilles allongées à nervures parrallèles et fleurs en épillet
+Feuilles allongées à **nervures parrallèles** et fleurs en **épillet**
 
 
 Les fabacées (*les légumineuses*)
@@ -33,7 +33,7 @@ Les fabacées (*les légumineuses*)
 .. image:: ../_static/images/fabacees.JPG
     :width: 600
     
-Fleurs avec 5 pétales inégales et graines dans des gousses 
+Fleurs avec 5 pétales inégales et graines dans des **gousses** 
 
 .. important::
     
@@ -68,9 +68,9 @@ Les astéracées
 .. image:: ../_static/images/asteracees.JPG
     :width: 600
 
-Inflorescence (plusieurs fleurs) et une sève blanche ou jaune (latex)
+Inflorescence (plusieurs fleurs) et une sève blanche ou jaune (**latex**)
 
-.. warning:: L'inflorescence rose n'est pas une fleur au sens biologique mais une mutitude de fleurs collées (au centre). *Idem pour les autres inflorescences*.
+.. warning:: L'inflorescence rose n'est pas une fleur au sens biologique mais une mutitude de fleurs collées (au centre). *Idem pour les autres inflorescences présentées*.
 .. image:: ../_static/images/asteracees_tournesol.jpeg
     :width: 300
 
@@ -84,7 +84,7 @@ Les lamiacées
 .. image:: ../_static/images/lamiacees.JPG
     :width: 600
 
-Très odorantes. Tiges avec 4 angles et 4 faces
+Très **odorantes**. Tiges avec **4 angles et 4 faces**
 
 
 Les alliacées
@@ -95,7 +95,7 @@ Les alliacées
 .. image:: ../_static/images/alliacees.JPG
     :width: 500
 
-Composées de bulbes, de feuilles aux nervures parrallèles, et de fleurs "en pompom" 
+Composées de **bulbes**, de feuilles aux nervures parrallèles, et de **fleurs "en pompom"** 
 
 Les apiacées (*les ombellifères)*
 ##################################
@@ -110,7 +110,7 @@ Les fleurs sont disposées en **ombelles**. Sur une ombelle, toutes les fleurs s
 Les cucurbitacées
 ########################
 
-*Courgette, concombre, melon, pastèque, courges,... *
+*Courgette, concombre, melon, pastèque, courges,...*
 
     .. image:: ../_static/images/cucurbitacees.JPG
         :width: 600
@@ -130,7 +130,7 @@ Les solanacées
     .. image:: ../_static/images/solanacees.JPG
         :width: 600
 
-Fleurs avec 5 pétales soudées et feuilles alternes (pas en symétrie par rapport à la tige)
+Fleurs avec 5 pétales soudées et **feuilles alternes** (pas en symétrie par rapport à la tige)
 
 Autres familles
 ####################
