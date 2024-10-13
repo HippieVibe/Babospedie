@@ -1,5 +1,5 @@
-Analyse des sols
-================
+Analyse du sol
+==============
 
 Formation d'un sol
 ------------------
@@ -23,9 +23,11 @@ Il est possible de diminuer l'acidité du sol, en le **chaulant** (apport de cal
 `Cartes Gisol <https://www.gissol.fr/donnees/>`_ pour plus de détails sur les différents sols de France. 
 
 .. warning:: 
- Le sol est un milieu menacé et précieux 
+ Le sol est un milieu menacé et précieux :
     - l'érosion des sols peut être limité par la **plantation d'haies sur talus** par exemple (afin de limiter la perte de sol lors des grosses pluies) 
     - la vie du sol peut être favorisée par la **couverture des sols** (paillage, couverts végétaux, bâches, compost) et **le non-travail du sol**
+  
+  Il est facile de perdre du sol, pratiquement impossible d'en gagner. 
 
 Composition globale d'un sol
 ----------------------------
@@ -76,8 +78,16 @@ Le limon
 
 Les sols limoneux ont un **toucher doux et soyeux**, similaire à du **talc**. Ils sont souvent **riches en fer**, donc de couleur ocre. Ce type de sol est sensible aux **tassements et aux croûtes de battance**.
 
-*détailler la battance**
+.. important::
+  La battance est une croûte qui se forme en surface du sol par l'action des gouttes de pluie (et accentuée par les engins agricoles). 
+  
+    .. image:: ../_static/images/battance.jpeg
+       :width: 300
 
+  Le sol en surface n'est alors plus poreux, les interstices étant comblés par des agrégats de matière sèche. 
+  
+  Ce phénomène pose un problème pour la germination et la levée des semis notamment.
+  
 L'argile
 ~~~~~~~~
 
@@ -107,14 +117,59 @@ Différentes strates vont apparaitre, avec les sables au fond, les argiles en ha
 .. image:: ../_static/images/test_bocal_sol.jpg
     :width: 500
  
+Pour caractériser la granulométrie d'un sol, on utilise le **triangle des textures** :
+
+.. image:: ../_static/images/triangle_texture.png
+    :width: 500
+
+
+
 .. important::
-  Pour avoir une idée précise de la composition de son sol, le mieux est de faire une analyse de sol par un laboratoire . Analyse de sol coûte entre 50 et 200€ à réaliser par un laboratoire accrédité par le ministère de l'agriculture https://agriculture.gouv.fr/laboratoires-officiels-et-reconnus-en-sante-des-vegetaux
-  nutriments NPK, au pH, à la structure du sol, à sa granulométrie, ses capacités de rétention de l’eau et éventuellement aux ETM (éléments traces métalliques)
+  Pour avoir une idée précise de la composition de son sol, le mieux est de faire une analyse de sol par un laboratoire accrédité par le ministère de l'agriculture (`liste <https://agriculture.gouv.fr/laboratoires-officiels-et-reconnus-en-sante-des-vegetaux>`_). 
 
-Attention pas faire profil de sol en plein été, plein hiver, fertilisation chaulage 
+  Une analyse de sol coûte entre 50 et 200€ en fonction de la méthode employée. 
 
-Complexe argilo-humique à charge négative attire ions positifs
+  Une analyse de sol donnera la granulométrie du sol mais également d'autre informations précieuses :
+
+  - Nutriments diponibles dans le sol (NPK -Azote, Phosphore, Potassium- en particulier)
+  - PH du sol
+  - Structure du sol (semelle de labour,croûte de battance, tassements, etc)
+  - Capacité de rentention de l'eau du sol
+  - Analyse des éléments traces métalliques *(pas systématique mais pertinent pour évaluer la pollution de son sol aux métaux lourds)*
+  
+.. attention:: 
+  Ne pas faire un profil de sol :
+
+  - en plein été ou en plein hiver
+  - après une fertilisation importante du sol
+  - après un chaulage du sol
+  
+  sous risque d'avoir une analyse de sol non représentative.  
+
 
 Décrire les atomes du sol 
+
+Les êtres vivants du sol
+------------------------
+
+Le sol est un milieu vivant et cette vie est indispensable au sol (décomposition des matières organiques, aération de la terre, minéralisation du sol, apport d'azote et de carbone etc.)
+
+Les animaux
+~~~~~~~~~~~
+
+Focus sur les annelides
+
+Les protozoaires
+~~~~~~~~~~~~~~~~
+
+Les champignons
+~~~~~~~~~~~~~~~
+
+Les bactéries
+~~~~~~~~~~~~~
+
+Les végétaux
+~~~~~~~~~~~~
+
 
 Faire un lien sur section plantes bioindicatrices
