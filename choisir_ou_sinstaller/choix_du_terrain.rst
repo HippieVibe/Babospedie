@@ -32,6 +32,8 @@ Conditions primaires
 - Présence d'eau sur le terrain (nappe phréatique, veine, source de montagne, etc.)
 - Sol non sableux (difficultés à cultiver)
 
+`Cartes Gisol <https://www.gissol.fr/donnees/>`_ pour plus de détails sur les différents sols de France et :ref:`cet article de la babospédie <analyse du sol>` pour des clés d'analyse du sol.
+
 Conditions secondaires
 ~~~~~~~~~~~~~~~~~~~~~~
 

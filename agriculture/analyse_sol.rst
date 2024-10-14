@@ -20,7 +20,10 @@ La roche mère va influencer la création du sol, notamment le PH du sol :
 
 Il est possible de diminuer l'acidité du sol, en le **chaulant** (apport de calcaire à la terre, sous forme de chaux ou autre).
 
-`Cartes Gisol <https://www.gissol.fr/donnees/>`_ pour plus de détails sur les différents sols de France. 
+En fonction du PH du sol, les nutriments du sol seront plus ou moins disponibles :
+
+.. image:: ../_static/images/ph_sol.png
+    :width: 500
 
 .. warning:: 
  Le sol est un milieu menacé et précieux :
@@ -32,8 +35,25 @@ Il est possible de diminuer l'acidité du sol, en le **chaulant** (apport de cal
 Composition globale d'un sol
 ----------------------------
 
-Au niveau atomique
+Au niveau atomique, un sol est composé en moyenne de :
+
+- 45% d'Oxygène
+- 45% de Carbone
+- 6% d'Hydrogène
+- 1,5% d'Azote
+- 1% de Potassium
+- 0,5% de Calcium
+- 0,2% de Phosphore
+- 0,2% de Magnésium
+- + Souffre, Manganèse, Zinc, Bore, Cuivre,...
+
+
+
+
+
 Les ions : nitrite, ?
+
+
 
 Phase solide liquide et gazeuse.
 
