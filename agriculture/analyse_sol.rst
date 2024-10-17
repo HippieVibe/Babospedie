@@ -6,7 +6,7 @@ Formation d'un sol
 
 Le sol se forme par l'érosion des roches. L'érosion se produit par le vent, le soleil, l'eau, les mousses, les champignons, les lichens et les bactéries.
 
-Le sol met du temps à se former. Plus un sol est profond, plus il est vieux. Plus un sol possède de strates différentes, plus il est vieux. 
+Le sol met du temps à se former. **Plus un sol est profond, plus il est vieux. Plus un sol possède de strates différentes, plus il est vieux.**
 
 .. important:: 
   Les racines les plus grandes des plantes potagères vont en moyenne à **40cm** de profondeur. 
@@ -32,39 +32,65 @@ En fonction du PH du sol, les nutriments du sol seront plus ou moins disponibles
   
   Il est facile de perdre du sol, pratiquement impossible d'en gagner. 
 
-Composition globale d'un sol
-----------------------------
+Composition d'un sol
+--------------------
+
+Nutriments du sol
++++++++++++++++++
 
 Au niveau atomique, un sol est composé en moyenne de :
 
 - 45% d'Oxygène
 - 45% de Carbone
 - 6% d'Hydrogène
-- 1,5% d'Azote
-- 1% de Potassium
+- 1,5% d'Azote (N)
+- 1% de Potassium (K)
 - 0,5% de Calcium
-- 0,2% de Phosphore
+- 0,2% de Phosphore (P)
 - 0,2% de Magnésium
-- + Souffre, Manganèse, Zinc, Bore, Cuivre,...
+- Souffre, Manganèse, Zinc, Bore, Cuivre,...
 
-Compléter avec les nutriments du sol (molécules et ions)
+.. important:: 
+  
+  Les nutriments N P K sont souvent ceux qui manquent le plus vite aux plantes :
 
-Le sol est donc composé d'une phase solide (détaillée ci-dessous),liquide (eau) et gazeuse (oxygène).
+  - **Besoin d'azote** (N) : l'azote permet de synthétiser des protéines, de la chlorophylle et de l'ADN. **L'azote est indipsensable à la croissance de la plante.**
+  
+  - **Besoin de phosophore** (P) : le phosphore permet de sythétiser l'ADN/ARN, les phosphoprotéines/phospholipides (membranes cellulaires) et l'ATP (source d'énergie cellulaire). **Le phosphore est indipsensable à la production d'énergie par la plante**.
+  
+  - **Besoin de potassium** (K) : le potassium permet de synthétiser la paroi cellulaire, de respirer (via l'ouverture/fermeture des stomates) et de faire circuler la sève. **Le potassium est indispensable à la nutrition de la plante.**
+  
+Les nutriments nécessaires aux plantes sont disponibles sous ces formes dans le sol :
+
+- ion nitrate (**NO₃⁻**) 
+- ion nitrite (**NO₂⁻**)
+- ion ammoniac (**NH₃**)
+- ammonium (**NH₄⁺**)
+- ion magnesium (**Mg²⁺**)
+- ion calcium (**Ca\²⁺**)
+- ion potassium (**K⁺**)
+- phosphore (**P₂O₅**)
+- ion phosphate (**PO₄³⁻**)
+- ion sulfate (**SO₄²⁻**)
+
+Composition globale
++++++++++++++++++++
+
+Le sol est composé d'une phase solide (détaillée ci-dessous),liquide (eau) et gazeuse (oxygène).
 
 Phase solide (en prairie) :
-- 95% de minéraux
-- 5% de constituants organiques :
+  - 95% de minéraux
+  - 5% de constituants organiques :
 
-            - 85% de matières organiques en déComposition
+            - 85% de matières organiques en décomposition
             - 10% de racines
             - 5% d'organismes vivants
-
 
 Sols argileux, limoneux ou sableux ?
 ------------------------------------
 
 Granulométrie des minéraux 
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+++++++++++++++++++++++++++
 
 En fonction de la taille des minéraux :
 
@@ -73,12 +99,12 @@ En fonction de la taille des minéraux :
 - Pour les grains en dessous de 0,002mm, on qualifie les minéraux d'**argile**
 
 .. image:: ../_static/images/type_de_sol.jpeg
-    :width: 500
+     :width: 500
     
   *Terre sableuse, limoneuse et argileuse*
 
 Le sable
-~~~~~~~~
+++++++++
 
 Les sols sableux sont **pauvres en nutriments et très drainants** (l'eau et les nutriments s'écoulent vite dans les profondeurs).
 
@@ -88,11 +114,13 @@ Pour avoir une idée du taux de sable dans une terre :
 - Si aucune rugosité n'est ressentie en frottant un peu de terre, il y a **moins de 15% de sable** dans l'échantillon
 
 Le limon
-~~~~~~~~
+++++++++
 
-Les sols limoneux ont un **toucher doux et soyeux**, similaire à du **talc**. Ils sont souvent **riches en fer**, donc de couleur ocre. Ce type de sol est sensible aux **tassements et aux croûtes de battance**.
+Les sols limoneux ont un **toucher doux et soyeux**, similaire à du **talc**. Ils sont souvent **riches en fer**, donc de couleur ocre. 
 
-.. important::
+Ce type de sol est sensible aux **tassements et aux croûtes de battance**.
+
+.. warning:: 
   La battance est une croûte qui se forme en surface du sol par l'action des gouttes de pluie (et accentuée par les engins agricoles). 
   
     .. image:: ../_static/images/battance.jpeg
@@ -100,14 +128,14 @@ Les sols limoneux ont un **toucher doux et soyeux**, similaire à du **talc**. I
 
   Le sol en surface n'est alors plus poreux, les interstices étant comblés par des agrégats de matière sèche. 
   
-  Ce phénomène pose un problème pour la germination et la levée des semis notamment.
+  Ce phénomène pose un problème pour **la germination et la levée des semis** notamment.
   
 L'argile
-~~~~~~~~
+++++++++
 
 Les sols argileux ont un **toucher collant** et sont des sols **lourds**. Ces sols **retiennent l'eau** (à tendance hydromorphe) et sont souvent **riches en nutriments**. 
 
-Le complexe argilo-humique est chargé négativement et attire donc les ions positifs présents dans la terre (mettre exemple)
+Le complexe argilo-humique (argile + hummus) est chargé négativement et attire donc les ions positifs présents dans la terre (:ref:`nutriments <nutriments du sol>`).
 
 Pour avoir une idée du taux d'argile dans une terre :
 
@@ -165,6 +193,6 @@ Les êtres vivants du sol
 
 Le sol est un milieu vivant et **cette vie est indispensable au sol** (décomposition des matières organiques, aération de la terre, minéralisation du sol, apport d'azote et de carbone etc.).
 
-Dans ces êtres vivants il y a des animaux (:ref:`focus sur les annélides<les vers de terre (annélides)>`), des protozoaires, des champignons, des bactéries et des végétaux. Certains de ces êtres vivants ont besoin d'air pour vivre et respirer, d'autre non (d'où l'importance d'avoir un sol aéré).
+Dans ces êtres vivants il y a des animaux (:ref:`focus sur les annélides<les vers de terre (annélides)>`), des protozoaires, des champignons, des bactéries et des végétaux.
 
 Les plantes présentes sur un sol peuvent d'ailleurs donner des indications sur l'état du sol : :ref:`plantes bio-indicatrices <plantes bio-indicatrices>`
