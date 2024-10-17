@@ -47,15 +47,9 @@ Au niveau atomique, un sol est composé en moyenne de :
 - 0,2% de Magnésium
 - + Souffre, Manganèse, Zinc, Bore, Cuivre,...
 
+Compléter avec les nutriments du sol (molécules et ions)
 
-
-
-
-Les ions : nitrite, ?
-
-
-
-Phase solide liquide et gazeuse.
+Le sol est donc composé d'une phase solide (détaillée ci-dessous),liquide (eau) et gazeuse (oxygène).
 
 Phase solide (en prairie) :
 - 95% de minéraux
@@ -166,30 +160,11 @@ Pour caractériser la granulométrie d'un sol, on utilise le **triangle des text
   
   sous risque d'avoir une analyse de sol non représentative.  
 
-
-Décrire les atomes du sol 
-
 Les êtres vivants du sol
 ------------------------
 
-Le sol est un milieu vivant et cette vie est indispensable au sol (décomposition des matières organiques, aération de la terre, minéralisation du sol, apport d'azote et de carbone etc.)
+Le sol est un milieu vivant et **cette vie est indispensable au sol** (décomposition des matières organiques, aération de la terre, minéralisation du sol, apport d'azote et de carbone etc.).
 
-Les animaux
-~~~~~~~~~~~
+Dans ces êtres vivants il y a des animaux (:ref:`focus sur les annélides<les vers de terre (annélides)>`), des protozoaires, des champignons, des bactéries et des végétaux. Certains de ces êtres vivants ont besoin d'air pour vivre et respirer, d'autre non (d'où l'importance d'avoir un sol aéré).
 
-Focus sur les annelides
-
-Les protozoaires
-~~~~~~~~~~~~~~~~
-
-Les champignons
-~~~~~~~~~~~~~~~
-
-Les bactéries
-~~~~~~~~~~~~~
-
-Les végétaux
-~~~~~~~~~~~~
-
-
-Faire un lien sur section plantes bioindicatrices
+Les plantes présentes sur un sol peuvent d'ailleurs donner des indications sur l'état du sol : :ref:`plantes bio-indicatrices <plantes bio-indicatrices>`

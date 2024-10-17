@@ -43,3 +43,20 @@ Mangent les limaces, les escargots et les larves de moustiques.
 
 .. image:: ../_static/images/canards_coureurs_indiens.jpg
    :width: 300
+
+Les vers de terre (annélides)
+-----------------------------
+
+Les annélides sont les brasseurs de la terre (ils aérent le sol avec leurs galeries) et ils participent à la décomposition de la matière organique (processus indispensable à la minéralisation du sol).
+
+.. warning:: Pour avoir un nombre important de vers de terre, pensez à limiter le travail du sol (surtout celui qui inverse les strates du sol) et les intrants chimiques (fertilisants, pesticides)
+
+Il existe différents types de vers de terre :
+
+- Les vers de terre **épigés** : de petite taille (1 à 5cm), colorés (rouge sombre), ils vivent en surface et creusent peu ou pas de galeries. Ils se nourrisent de la matière organique en décomposition disponible à la surface (compost, fumier, racines,etc.)
+- Les vers de terre **endogés** : de 1 à 20cm, faiblement pigmentés (rose à gris pâle), ils vivent dans le sol et creusent des galeries horizontales. Ils remontent rarement à la surface et se nourissent de matière organique déjà digérée par les épigées en surface
+- Les vers de terre **anéciques** : de grande taille (10 à 110cm), ils creusent des galeries verticales en profondeur et rejettent leurs déjéctions à la surface (**turricules**). Ils participent aussi à l'enfouissement des matières organiques décomposées par leurs compères épigés
+
+.. image:: ../_static/images/turricule.jpeg
+
+Les turricules sont facilement reconnaissables et sont d'excellents fertilisants pour le sol : ils contiennent en moyenne 4 fois plus d'**azote**, 7 fois plus de **phosophore**, 11 fois plus de **potasse** et 3 fois plus de **calcium et magnesium** que la terre environnante.
