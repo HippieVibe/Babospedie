@@ -100,8 +100,8 @@ En fonction de la taille des minéraux :
 
 .. image:: ../_static/images/type_de_sol.jpeg
      :width: 500
-    
-  *Terre sableuse, limoneuse et argileuse*
+
+*Terre sableuse, limoneuse et argileuse*
 
 Le sable
 ++++++++
