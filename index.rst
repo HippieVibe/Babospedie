@@ -28,6 +28,7 @@ TODO: travailler l'introduction.
     amenagement_du_terrain/phase_dobservation
     amenagement_du_terrain/structures
     amenagement_du_terrain/mare
+    amenagement_du_terrain/compost
 
 .. toctree::
     :hidden:
